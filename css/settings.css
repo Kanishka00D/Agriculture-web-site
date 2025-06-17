@@ -1,0 +1,137 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(background.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    font-size: larger;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: skyblue; 
+    text-decoration: none;
+}
+
+header {
+    background-color: #006400;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+
+header img {
+    max-height: 100px; 
+}
+
+nav {
+    margin-top: 10px;
+    background-color: black;
+    display: flex;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;   
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none; 
+}
+
+.navbutton {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 50px;
+    width: 200px;
+    font-size: larger;
+    background-color: rgb(22, 167, 46); 
+    border: 2px solid #ffffff; 
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbutton:hover {
+    background-color: #2980b9; 
+}
+
+.topic {
+    background-color: #006400;
+    color: white;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    padding: 20px; 
+    border: 2px solid white;
+    border-radius: 10px; 
+    background-color: #006400; 
+    overflow: auto; 
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+table, th, td {
+    border: 3px solid white;
+    padding: 8px; 
+    text-align: center;
+    color: white;
+}
+
+th {
+    background-color: #006400; 
+    color: white; 
+}
+.button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: #0b2b41; 
+    width: fit-content;
+    height: fit-content;
+    color: #00ccff; 
+    padding: 10px 20px; 
+    border: 2px solid #ffffff; 
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 30px;
+}
+
+.button:hover {
+    background-color: #2980b9; 
+}
+
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin-top: auto;
+}
+
